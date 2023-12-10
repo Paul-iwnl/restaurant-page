@@ -1,8 +1,9 @@
 const path = require('path');
 module.exports = {
-    entry:'./src/pageLoad.js',
+    mode: "development",
+    entry: "./src/index.js",
     output: {
-        filename: 'main.js',
-        path: path.resolve(__dirname,'dist'),
-    }
+        filename: "main.js",
+        path: path.resolve(__dirname, "dist"),
+    },
 };
